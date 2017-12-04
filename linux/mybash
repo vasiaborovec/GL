@@ -1,0 +1,4 @@
+#!/bin/bash
+# This is a comment
+pwd
+find -mtime -7 -printf "%c %p\n" | sort -r

@@ -1,0 +1,6 @@
+1) GET /books/?filter=..
+2) GET /books/book/detail
+3) GET /books/book/critics_comment
+4) PATCH /books/book
+        body => "Content-Type: application/json" {"atribute": value}
+5) DELETE /books/book
